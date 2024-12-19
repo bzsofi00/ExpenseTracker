@@ -486,5 +486,5 @@ if __name__ == "__main__":
     main()
 
 
-# # The program can be tested with a sample json file, that already has some expense records
+# # The program can be tested with a sample json file, that already has some expense records, to do that download "Peter_expenses.json"
 # ## Use "Peter" for the name to test the existing json file, or initialize a new user with any name and start by adding a few expense records
