@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
 
 
 import json
@@ -9,8 +8,6 @@ import csv
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-
-# In[ ]:
 
 
 class User:
@@ -410,7 +407,6 @@ class ExpenseTracker:
             print("No expenses to visualize.")
 
 
-# In[ ]:
 
 
 def main_menu(tracker):
