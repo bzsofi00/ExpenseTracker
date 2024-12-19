@@ -1,0 +1,109 @@
+{
+    "expenses": [
+        {
+            "amount": 265.0,
+            "category": "food",
+            "date": "2024-12-01",
+            "description": "Groceries for the week"
+        },
+        {
+            "amount": 400.0,
+            "category": "transport",
+            "date": "2024-12-03",
+            "description": "Taxi ride to the airport"
+        },
+        {
+            "amount": 436.3636363636363,
+            "category": "entertainment",
+            "date": "2024-12-04",
+            "description": "Tickets to the zoo"
+        },
+        {
+            "amount": 590.9090909090909,
+            "category": "entertainment",
+            "date": "2024-12-04",
+            "description": "Dinner at a restaurant"
+        },
+        {
+            "amount": 218.18181818181816,
+            "category": "transport",
+            "date": "2024-12-05",
+            "description": "Taxi to the airport"
+        },
+        {
+            "amount": 380.0,
+            "category": "utilities",
+            "date": "2024-12-07",
+            "description": "Monthly electricity bill"
+        },
+        {
+            "amount": 78.9,
+            "category": "others",
+            "date": "2024-12-09",
+            "description": "Christmas gift for a friend"
+        },
+        {
+            "amount": 660.0,
+            "category": "transport",
+            "date": "2024-12-15",
+            "description": "Public transport monthly pass"
+        },
+        {
+            "amount": 60.0,
+            "category": "services",
+            "date": "2024-12-17",
+            "description": "Netflix subscription"
+        },
+        {
+            "amount": 10500.0,
+            "category": "utilities",
+            "date": "2024-12-18",
+            "description": "Rent"
+        },
+        {
+            "amount": 435.0,
+            "category": "food",
+            "date": "2024-12-18",
+            "description": "Groceries"
+        },
+        {
+            "amount": 900.0,
+            "category": "others",
+            "date": "2024-12-18",
+            "description": "New vacuum cleaner"
+        },
+        {
+            "amount": 390.0,
+            "category": "services",
+            "date": "2024-12-19",
+            "description": "Hairdresser"
+        },
+        {
+            "amount": 395.9,
+            "category": "food",
+            "date": "2024-12-19",
+            "description": "Groceries"
+        },
+        {
+            "amount": 2250.0,
+            "category": "transport",
+            "date": "2024-12-20",
+            "description": "Flight tickets"
+        },
+        {
+            "amount": 536.0,
+            "category": "food",
+            "date": "2024-12-18",
+            "description": "Groceries"
+        },
+        {
+            "amount": 632.0,
+            "category": "services",
+            "date": "2024-12-20",
+            "description": "Dentist"
+        }
+    ],
+    "budgets": {
+        "food": 3000.0
+    }
+}
