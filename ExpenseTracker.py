@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[1]:
 
 
 import json
@@ -8,6 +9,8 @@ import csv
 import matplotlib.pyplot as plt
 from datetime import datetime
 
+
+# In[2]:
 
 
 class User:
@@ -44,7 +47,7 @@ class User:
             print(f"Data saved for user: {self.name}")
 
 
-# In[ ]:
+# In[3]:
 
 
 class Expense:
@@ -58,7 +61,7 @@ class Expense:
         return vars(self)
 
 
-# In[1]:
+# In[4]:
 
 
 class ExpenseTracker:
@@ -249,7 +252,6 @@ class ExpenseTracker:
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
 
-    
     def sort_expenses(self):
         if not self.user.expenses:
             print("No expenses to sort.")
@@ -340,7 +342,7 @@ class ExpenseTracker:
 
     def view_budget(self):
         if not self.user.budgets:
-            print("\nNo budgets to show.")
+            print("\nThere are no budgets to show.")
             return
     
         print("\n--- Budget Overview ---")
@@ -407,6 +409,7 @@ class ExpenseTracker:
             print("No expenses to visualize.")
 
 
+# In[ ]:
 
 
 def main_menu(tracker):
@@ -482,3 +485,6 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+# # The program can be tested with a sample json file, that already has some expense records
+# ## Use "Peter" for the name to test the existing json file, or initialize a new user with any name and start by adding a few expense records
